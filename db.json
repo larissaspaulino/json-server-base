@@ -6,6 +6,20 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "test@email.com",
+      "password": "$2a$10$XmdnraUHqUkB2YsQnc3pm.Fx.PTgeJRXJONs2QsWCCTDvxTNNH6Te",
+      "name": "Teste",
+      "age": 45,
+      "id": 2
     }
-  ]
+  ],
+  "products": [
+    {
+      "Sapato": "Sandália",
+      "preco": 92
+    }
+  ],
+  "cart": []
 }

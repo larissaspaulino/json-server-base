@@ -22,3 +22,38 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+<br/>
+
+### Products
+
+GET /products <br/>
+POST /products 
+
+A requisição GET é pública e todos podem lê-la.
+O usuário deve ser "dono" (userId) do recurso para adicionar produtos.
+
+Corpo da requisição: 
+    {
+        "Sapato": tênis,
+        "preco": 100
+    }
+
+### CART
+
+GET /cart <br/>
+POST /cart
+
+A requisição GET é pública.
+O usuário deve ser "dono" (userId) do recurso para adicionar produtos.
+
+
+Para ler o rescurso, é preciso estar logado (autenticado).
+O usuário deve ser "dono" (userId) do recurso para adicionar produtos.
+
+Corpo da requisição: 
+    {
+        "Sapato": tênis,
+        "preco": 100,
+        "id": 1
+    }
