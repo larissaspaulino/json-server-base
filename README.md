@@ -55,5 +55,5 @@ Corpo da requisição:
     {
         "Sapato": tênis,
         "preco": 100,
-        "id": 1
+        "userId": 1
     }
